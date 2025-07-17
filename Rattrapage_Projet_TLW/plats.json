@@ -1,0 +1,146 @@
+[
+  {
+    "nom": "Salade César",
+    "categorie": "entrée",
+    "description": "Salade romaine, poulet grillé, parmesan, croûtons",
+    "prix": 8.5,
+    "vegetarien": false,
+    "image": "images/plats/salade-cesar.jpg"
+  },
+  {
+    "nom": "Soupe de légumes",
+    "categorie": "entrée",
+    "description": "Légumes bio de saison, bouillon maison",
+    "prix": 6.0,
+    "vegetarien": true,
+    "image": "images/plats/soupe-legumes.jpg"
+  },
+  {
+    "nom": "Bruschetta tomates & basilic",
+    "categorie": "entrée",
+    "description": "Pain grillé, tomates cerises, huile d'olive, basilic",
+    "prix": 7.0,
+    "vegetarien": true,
+    "image": "images/plats/bruschetta.jpg"
+  },
+  {
+    "nom": "Carpaccio de bœuf",
+    "categorie": "entrée",
+    "description": "Bœuf cru mariné, parmesan, roquette",
+    "prix": 9.0,
+    "vegetarien": false,
+    "image": "images/plats/carpaccio.jpg"
+  },
+  {
+    "nom": "Velouté de potimarron",
+    "categorie": "entrée",
+    "description": "Crème de potimarron, éclats de noisettes",
+    "prix": 6.5,
+    "vegetarien": true,
+    "image": "images/plats/veloute.jpg"
+  },
+  {
+    "nom": "Crevettes croustillantes",
+    "categorie": "entrée",
+    "description": "Panure panko, sauce thaï sucrée",
+    "prix": 8.0,
+    "vegetarien": false,
+    "image": "images/plats/crevettes.jpg"
+  },
+  {
+    "nom": "Burger maison",
+    "categorie": "plat",
+    "description": "Bœuf charolais, cheddar, oignons caramélisés, frites",
+    "prix": 14.5,
+    "vegetarien": false,
+    "image": "images/plats/burger.jpg"
+  },
+  {
+    "nom": "Pâtes aux champignons",
+    "categorie": "plat",
+    "description": "Pâtes fraîches, crème, champignons de Paris",
+    "prix": 12.0,
+    "vegetarien": true,
+    "image": "images/plats/pates.jpg"
+  },
+  {
+    "nom": "Curry de légumes",
+    "categorie": "plat",
+    "description": "Curry doux, riz basmati, légumes de saison",
+    "prix": 13.0,
+    "vegetarien": true,
+    "image": "images/plats/curry.jpg"
+  },
+  {
+    "nom": "Magret de canard",
+    "categorie": "plat",
+    "description": "Magret rôti, purée de patate douce, sauce au miel",
+    "prix": 17.5,
+    "vegetarien": false,
+    "image":"images/plats/magret.jpg"
+  },
+  {
+    "nom": "Risotto aux asperges",
+    "categorie": "plat",
+    "description": "Riz Arborio, asperges vertes, parmesan",
+    "prix": 13.5,
+    "vegetarien": true,
+    "image":"images/plats/risotto.jpg"
+  },
+  {
+    "nom": "Pavé de saumon",
+    "categorie": "plat",
+    "description": "Saumon rôti, légumes vapeur, citron vert",
+    "prix": 15.0,
+    "vegetarien": false,
+    "image":"images/plats/saumon.jpg"
+  },
+  {
+    "nom": "Tiramisu",
+    "categorie": "dessert",
+    "description": "Classique italien au café et cacao",
+    "prix": 6.0,
+    "vegetarien": true,
+    "image":"images/plats/tiramisu.jpg"
+  },
+  {
+    "nom": "Fondant au chocolat",
+    "categorie": "dessert",
+    "description": "Cœur coulant, servi tiède avec boule de vanille",
+    "prix": 6.5,
+    "vegetarien": true,
+    "image":"images/plats/fondant.jpg"
+  },
+  {
+    "nom": "Salade de fruits frais",
+    "categorie": "dessert",
+    "description": "Fruits de saison, menthe fraîche",
+    "prix": 5.5,
+    "vegetarien": true,
+    "image":"images/plats/saladefruits.jpg"
+  },
+  {
+    "nom": "Crème brûlée",
+    "categorie": "dessert",
+    "description": "Vanille Bourbon, croûte caramélisée",
+    "prix": 6.0,
+    "vegetarien": true,
+    "image":"images/plats/creme.jpg"
+  },
+  {
+    "nom": "Cheesecake spéculoos",
+    "categorie": "dessert",
+    "description": "Base spéculoos, fromage frais, coulis de framboise",
+    "prix": 6.5,
+    "vegetarien": true,
+    "image":"images/plats/cheesecake.jpg"
+  },
+  {
+    "nom": "Tarte aux noix",
+    "categorie": "dessert",
+    "description": "Pâte sablée, cerneaux de noix, caramel",
+    "prix": 6.5,
+    "vegetarien": true,
+    "image":"images/plats/tarte_noix.jpg"
+  }
+]

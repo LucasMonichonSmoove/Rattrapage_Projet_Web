@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Le Délice</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- En-tête avec navigation -->
+  <header>
+    <nav>
+  <div class="nav-container">
+    <div class="logo">
+      <a href="#accueil" class="logo-link">
+        <img src="images/logo.png" alt="Logo Le Délice">
+        <span>Le Délice</span>
+      </a>
+    </div>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#carte">Carte</a></li>
+      <li><a href="#reservation">Réservation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  </header>
+
+ <!-- Accueil -->
+<section id="accueil">
+  <div class="introduction">
+    <h1>Bienvenue au Délice</h1>
+    <p>Au cœur de Lyon, Le Délice vous invite à savourer une cuisine française authentique dans une ambiance conviviale et raffinée.</p>
+    <p>Brasserie moderne aux inspirations traditionnelles, notre restaurant célèbre les plaisirs de la table à travers des produits frais, une carte de saison et un service attentionné.</p>
+    <p>Que ce soit pour un déjeuner entre amis, un dîner en amoureux ou un moment en famille, chaque visite est une expérience culinaire à part entière.</p>
+    <p><em>Installez-vous, détendez-vous... et laissez-vous séduire par nos saveurs.</em></p>
+  </div>
+  <a href="#carte"><button>Découvrir la carte</button></a>
+  <img src="images/restaurant.png" alt="Photo du restaurant">
+</section>
+
+  <!-- Carte des plats -->
+  <section id="carte">
+    <h2>Notre Carte</h2>
+
+    <label>
+      <input type="checkbox" id="vegetarian-toggle">
+      Afficher uniquement les plats végétariens
+    </label>
+
+    <div id="entrees" class="categorie-bloc">
+      <h3>Entrées</h3>
+      <div class="liste-plats" id="liste-entrees"></div>
+    </div>
+
+    <div id="plats" class="categorie-bloc">
+      <h3>Plats</h3>
+      <div class="liste-plats" id="liste-plats"></div>
+    </div>
+
+    <div id="desserts" class="categorie-bloc">
+      <h3>Desserts</h3>
+      <div class="liste-plats" id="liste-desserts"></div>
+    </div>
+        
+
+    <!-- Template pour chaque plat -->
+    <template id="template-plat">
+      <div class="plat">
+        <img class="photo" src="" alt="Photo du plat">
+        <h4 class="nom"></h4>
+        <p class="description"></p>
+        <p class="prix"></p>
+        <p class="vegetarien"></p>
+      </div>
+    </template>
+  </section>
+
+  <!-- Réservation -->
+  <section id="reservation">
+    <h2>Réserver une table</h2>
+    <form id="form-reservation">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="heure">Heure :</label>
+      <input type="time" id="heure" name="heure" required>
+
+      <label for="personnes">Nombre de personnes :</label>
+      <input type="number" id="personnes" name="personnes" min="1" required>
+
+      <label for="message">Message (optionnel) :</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Réserver</button>
+    </form>
+
+    <div id="confirmation" style="display: none;">
+      Merci ! Votre réservation a bien été enregistrée.
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <address>
+      <p>78 rue Alexandre Boutin, 69100, Villeurbanne</p>
+      <p>Ouvert du mardi au dimanche, de 12h à 22h</p>
+      <p>Téléphone : <a href="tel:+33412345678">04 12 34 56 78</a></p>
+      <p>Email : <a href="mailto:contact@ledelice.fr">contact@ledelice.fr</a></p>
+    </address>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5566.548366860509!2d4.866130574820147!3d45.765695113274006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea813dfba82b%3A0x4818bbc4361d1af0!2s78%20Rue%20Alexandre%20Boutin%2C%2069100%20Villeurbanne!5e0!3m2!1sfr!2sfr!4v1752743268628!5m2!1sfr!2sfr"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Le Délice - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
